@@ -1,0 +1,30 @@
+nav
+{
+    display: inline-block;
+    width: 150px;
+    border: 1px solid black;
+    vertical-align: top;
+}
+
+section
+{
+    display: inline-block;    
+    border: 1px solid blue;
+    vertical-align: top;
+}
+/* Paragraphes en bleu par défaut */
+p
+{
+    color: blue;
+}
+
+/* Nouvelles règles si la fenêtre fait au plus 1024px de large */
+@media screen and (max-width: 1024px)
+{
+    p
+    {
+        color: red; 
+        background-color: black;
+        font-size: 1.2em;
+    }
+}

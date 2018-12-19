@@ -1,0 +1,36 @@
+h1
+{
+	color:navy;
+}
+h1
+{
+    text-align: center;
+}
+h2
+{
+	text-align: center;
+}
+body
+{
+    background-image: url("Vitalik.png");
+    background-attachment: fixed; /* Le fond restera fixe */
+    background-repeat: no-repeat; /* Le fond ne sera pas répété */
+    background-position: top right; /* Le fond sera placé en haut à droite */
+}
+@font-face 
+{ /* Définition d'une nouvelle police nommée CAC Champagne */
+    font-family: 'cac_champagneregular';
+    src: url('cac-champagne-webfont.eot');
+    src: url('cac-champagne-webfont.eot?#iefix') format('embedded-opentype'),
+         url('cac-champagne-webfont.woff') format('woff'),
+         url('cac-champagne-webfont.ttf') format('truetype'),
+         url('cac-champagne-webfont.svg#cac_champagneregular') format('svg');
+}
+h1
+{
+    border: 3px blue dashed;
+}
+p
+{
+    text-shadow: 2px 2px 4px black;
+}

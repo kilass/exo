@@ -1,0 +1,73 @@
+p
+{
+    font-size: small;
+}
+h1
+{
+    font-size:x-large;
+}
+
+p
+{
+    font-family: Impact, "Arial Black", Arial, Verdana, sans-serif;
+}
+
+h1
+{
+    font-style: italic;
+}
+
+p
+{
+    font-weight: bold;
+}
+
+h1
+{
+    color: maroon;
+}
+/* On travaille sur la balise body, donc sur TOUTE la page */
+body
+{
+    background-image: url("");
+}
+h1
+{
+    border: 3px blue dashed;
+}
+p
+{
+    border: 3px blue groove;
+}
+p
+{
+    border-radius: 10px;
+}
+p
+{
+    box-shadow: 6px 6px 6px black inset;
+}
+p
+{
+    text-shadow: 2px 2px 4px black;
+}
+a /* Liens par défaut (non survolés) */
+{
+   text-decoration: none;
+   color: red;
+   font-style: italic;
+}
+
+a:hover /* Apparence au survol des liens */
+{
+   text-decoration: underline;
+   color: green;
+}
+a:active /* Quand le visiteur clique sur le lien */
+{
+    background-color: #FFCC66;
+}
+a:visited /* Quand le visiteur a déjà vu la page concernée */
+{
+    color: #AAA; /* Appliquer une couleur grise */
+}

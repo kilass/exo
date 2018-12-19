@@ -1,0 +1,122 @@
+body {
+  display: flex; /* crée un contexte flex pour ses enfants */
+  flex-direction: column; /* affichage vertical */
+  min-height: 100vh; /* toute la hauteur du viewport */
+  padding: 1em;
+  margin: 0;
+  background-color:maroon;
+  font-family: Courier New, Comic Sans MS, arial, sans-serif;
+  color: white;
+}
+/*aligné tout le site( titre du haut, performance),bordure autour des images, 
+police comic de base, colé les bordures du tableaux, aligné le contact
+ajouté des images mimi au fond */
+h1
+{
+	text-align: center;
+	font-size: 2.8em;
+	font-weight: bold;
+	text-shadow: 6px 6px 4px black;
+}
+h2
+{
+	text-align: center;
+	text-shadow: 6px 6px 4px black;
+}
+h3
+{
+	text-shadow: 6px 6px 4px black;
+}
+p
+{
+	color:white;
+    padding: 15px; /* Marge intérieure de 15px */
+}
+ul,
+li,a 
+{
+  list-style: none;
+  
+    text-decoration: none;
+    color: white;  
+}
+.performances 
+{
+  /* Affichage sur 3 colonnes*/
+  display: flex;
+  -moz-column-count: 3;
+  -webkit-column-count: 3;
+  column-count: 3;
+    text-align: center;
+    padding: 2px; /* Marge intérieure de 2px */  
+}
+}
+table
+{
+    border-collapse: collapse; /* Les bordures du tableau seront collées (plus joli) bug !! */
+}
+td
+{
+    border: 1.5px solid white;
+    border-radius: 4px;
+    padding: 10px;
+}
+section
+{
+    border: 2px red outset;
+    border-radius: 6px;
+    box-shadow: 6px 6px 3px black;
+}
+nav
+{
+	text-shadow:4px 4px 8px black;
+  	font-family: Amatic SC;
+  	font-size: 1.8em;
+  	text-align: center;
+}
+.imag1
+{
+	margin-left:auto; margin-right:auto;
+}
+.top
+{
+	text-align: center;
+}
+.prices
+{
+	margin-left:auto; margin-right:auto;
+}
+.Menu
+{
+	display: flex;
+  	-moz-column-count: 4;
+  	-webkit-column-count: 4;
+ 	 column-count: 4;
+    	text-align: justify;
+    	padding: 2px; /* Je voudrais mettre le menu au milieux sur une ligne */ 
+}
+div
+{
+	text-align:center;
+}
+form {
+  margin: 0 auto;
+  width: 200px;
+  /* voir pour le centrer mieux */
+  padding: 1em;
+  border: 1px solid #ccc;
+  border-radius: 1em;
+  border-color: pink;
+}
+a /* Liens par défaut (non survolés) */
+{
+   text-decoration: none;
+   color: navy;
+   font-style: italic;
+}
+
+a:hover /* Apparence au survol des liens */
+{
+   text-decoration: underline;
+   color: black;
+}
